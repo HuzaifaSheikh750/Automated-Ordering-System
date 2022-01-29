@@ -114,7 +114,7 @@ const AddFood = () => {
   };
 
   return (
-    
+            
     <View style={styles.container}>
       <View style={{margin: 20}}>
         <View style={{alignItems: 'center'}}>

@@ -13,6 +13,8 @@ import RestaurantDetail from '../screens/RestaurantDetail';
 import AddFood from '../screens/AddFood';
 import Cart from '../screens/Cart';
 import UpdateFood from '../screens/UpdateFood';
+import OrdderCompleted from '../screens/OrdderCompleted';
+import RestaurantItem from '../components/home/RestaurantItem'
 // import {Provider as ReduxProvider} from 'react-redux';
 // import configureStore from '../redux/store';
 // const store = configureStore();
@@ -81,6 +83,9 @@ function App() {
         />
         <Stack.Screen name="AddFood" component={AddFood} />
         <Stack.Screen name="UpdateFood" component={UpdateFood} />
+        <Stack.Screen name="OrderCompleted" component={OrdderCompleted}  options={{headerShown: false}} />
+        {/* <Stack.Screen name="RestaurantItem" component={RestaurantItem} /> */}
+
         
       </Stack.Navigator>
     </NavigationContainer>
