@@ -9,7 +9,7 @@ const SearchBar = ({text, setText}) => {
   return (
     <View style={{marginTop: 15, flexDirection: 'row'}}>
       <TextInput
-      style={{}}
+      style={{paddingLeft:20, width: '90%', height: 50, borderColor: 'gray', borderWidth: 2, borderRadius: 10, marginLeft:20}}
         placeholder="search"
         value={text}
         onChangeText={txt => {

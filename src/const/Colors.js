@@ -8,5 +8,5 @@ const COLORS = {
 
 export default COLORS;
 
-export const reqRange = 9000;
+export const reqRange = 7000;
 // #00B761

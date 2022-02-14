@@ -79,8 +79,10 @@ let Map = () => {
         };
         setCL(position.coords || initialPosition);
         const dist = calcCrow(
-          24.924344, //restraunt.long
-          67.083973, //restraunt.lat
+          24.8393733317,
+          67.0818742087,
+          // 24.924344, //restraunt.long
+          // 67.083973, //restraunt.lat
           cL?.latitude,
           cL?.longitude,
         );
@@ -113,11 +115,15 @@ let Map = () => {
           // onMapReady={goToInitialRegion.bind()}
           style={styles.map}>
           <Circle
-            center={{latitude: 24.924344, longitude: 67.083973}}
+            // center={{latitude: 24.924344, longitude: 67.083973}}
+            center={{latitude: 24.8393733317, longitude: 67.0818742087}}
+
             radius={reqRange}
             fillColor={'rgba(200,300,200,0.5)'}></Circle>
           <Marker
-            coordinate={{latitude: 24.924344, longitude: 67.083973}}
+            coordinate={{latitude: 24.8393733317, longitude: 67.0818742087}}
+            // coordinate={{latitude: 24.924344, longitude: 67.083973}}
+
             title={'Iqra University'}></Marker>
         </MapView>
       </View>

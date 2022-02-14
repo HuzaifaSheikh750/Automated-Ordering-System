@@ -18,7 +18,7 @@ import ImagePicker from 'react-native-image-crop-picker';
 import storage from '@react-native-firebase/storage';
 
 const AddFood = () => {
-  const foodCollection = firestore().collection('Food');
+  const foodCollection = firestore().collection('Foods');
 
   const [food, setFood] = useState('');
   const [about, setAbout] = useState('');

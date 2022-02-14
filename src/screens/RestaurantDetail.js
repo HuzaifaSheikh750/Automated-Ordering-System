@@ -89,8 +89,10 @@ function RestaurantDetail({navigation, route}) {
         };
         setCL(position.coords || initialPosition);
         const dist = calcCrow(
-          24.924344, //restraunt.long
-          67.083973, //restraunt.lat
+          24.8393733317,
+          67.0818742087,
+          // 24.924344, //restraunt.long
+          // 67.083973, //restraunt.lat
           position.coords?.latitude,
           position.coords?.longitude,
         );

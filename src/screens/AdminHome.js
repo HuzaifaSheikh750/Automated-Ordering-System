@@ -173,7 +173,7 @@ const SignedIn = ({navigation}) => {
   return (
     <View>
       <HeaderTab />
-      <View style={{paddingHorizontal: 20}}>
+      <View style={{paddingHorizontal: 20, marginBottom:10}}>
         <SearchBar text={text} setText={setText}/>
       </View>
 
